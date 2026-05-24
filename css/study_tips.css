@@ -1,0 +1,19 @@
+.study-card{
+    height: 420px;
+    background-color: rgba(239, 235, 235, 0);
+}
+
+.study-card img{
+    height: 180px;
+    object-fit: cover;
+}
+
+.study-card .card-body{
+    padding: 1.5rem;
+}
+
+.motivation-section {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+

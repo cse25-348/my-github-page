@@ -1,0 +1,83 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav ul{
+   list-style-type: none;
+}
+
+.nav ul li{
+    float: left;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Times New Roman;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.hero-card {
+    /* medium sized hero */
+    height: 60vh;
+    position: relative;
+}
+
+.hero-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(45%);
+}
+
+/* center overlay content and animate upward into the middle */
+.hero-card .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 700ms cubic-bezier(.2,.9,.2,1) forwards;
+}
+
+.fade-up.delay-1 { animation-delay: 150ms; }
+.fade-up.delay-2 { animation-delay: 300ms; }
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    background-color: #f0f0f0; /* change this hex to whatever gray you want */
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
