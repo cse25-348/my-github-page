@@ -1,22 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", initial-scale=1.0">
-        <title>My First GitHub Page</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <link rel="stylesheet" href="css/index.css">
+      <title>Home</title>
     </head>
     <body>
-        <header>
-            <h1> Welcome to My Website!</h1>
-        </header>
-        <main>
-            <p> This is a simple webpage hosted on GitHub Pages.</p>
-            <p> Here's a picture of a cute cat:</p>
-            <img src="https://placekitten.com/200/300" alt="A cute kitten">
-            <p> Visit <a href= "https://gituhub.com">GitHub</a> to learn more about coding.</p>
-        </main>
-    </footer>
-    <p>&copy; 2026 Rethabile </p>
+
+         <nav class="navbar navebar-dark bg-dark">
+             <div class="container">
+                <a class= " nav-link text-white" href="index.html"><span class="navbar-brand">UniCare</span></a>
+                <ul class="nav ms auto">
+                    <li class="nav-item"> <a class="nav-link text white" href="index.html">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link text white" href="study_tips.html">Study Tips</a> </li>
+                    <li class="nav-item"> <a class="nav-link text white" href="mental_wellness.html">Mental Wellness</a> </li>
+                    <li class="nav-item"> <a class="nav-link text white" href="daily_affirmations.html"> Daily Affirmations</a> </li>
+                    <li class="nav-item"> <a class="nav-link text white" href="about_us.html"> About Us</a> </li>
+                    <li class="nav-item"> <a class="nav-link text white" href="contact_us.html"> Contact Us</a> </li>
+                </ul>
+            </div>
+        </nav>
+           
+           
+       <div class="card text-white border-0 hero-card">
+    <img src="images/coverpic.jpeg" class="card-img img-fluid" alt="Hero Image">
+
+    <div class="card-img-overlay d-flex flex-column justify-content-center ps-5">
+        <h1 class="display-1 fw-bold fade-up">
+            Balance Your Mind
+        </h1>
+
+        <h1 class="display-1 fw-bold fade-up delay-1">
+            Boost Your Grades
+        </h1>
+
+        <p class="lead col-md-6 fade-up delay-2">
+            From study strategies to mental wellness. Unicare helps you thrive,
+            not just survive university life.
+        </p>
+    </div>
+</div>
+
+             <div class="container border border-light py-4">
+             <div class="row align-items-center mt-4">
+
+        <!-- Left Side -->
+        <div class="col-md-4">
+            <h1 class="display-4">Prioritize your wellbeing</h1>
+        </div>
+
+        <!-- Right Side -->
+        <div class="col-md-8">
+            <p class="lead">
+                Success in University isn't just about studying harder,
+                it's about understanding how your mind works. From managing
+                stress to building better habits, small psychological shifts
+                can make a big difference.
+            </p>
+
+            <p class="lead">
+                Start exploring simple ways to improve your study life and overall wellbeing.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+       <section class="journey-section py-5">
+
+         <div class="container">
+
+            <!-- Section Title -->
+                <div class="row mb-5">
+                    <div class="col text-center">
+                      <h2>Start your Journey Here</h2>
+                    </div>
+                </div>
+
+           <!-- Cards Row -->
+<div class="row g-5 justify-content-center">
+
+    <!-- Card 1 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center">
+            <img src="images/StudyTipsCover.jpg" class="card-img-top" alt="Study Tips img">
+            <div class="card-body">
+                <h5 class="card-title">Study Tips</h5>
+                <p class="card-text">Discover simple strategies to improve focus, manage time, and study more effectively.</p>
+                <a href="Study_Tips.html" class="btn btn-primary my-3">Explore Tips</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center">
+            <img src="images/MentalWellnessCover.jpg" class="card-img-top" alt="Mental Wellness img">
+            <div class="card-body">
+                <h5 class="card-title">Mental Wellness</h5>
+                <p class="card-text">Learn healthy ways to manage stress, anxiety, and maintain a balanced student life.</p>
+                <a href="Mental_Wellness.html" class="btn btn-primary my-3">Find Balance</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center">
+            <img src="images/AffirmationsCoverPic2.jpg" class="card-img-top" alt="Daily Affirmations img">
+            <div class="card-body">
+                <h5 class="card-title">Daily Affirmations</h5>
+                <p class="card-text">Build confidence and motivation with positive reminders designed for students.</p>
+                <a href="Daily_Affirmations.html" class="btn btn-primary my-3">Get Inspired</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-6 col-lg-3">
+        <div class="card h-100 text-center">
+            <img src="images/ContactUsCover.jpg" class="card-img-top" alt="Contact Us img">
+            <div class="card-body">
+                <h5 class="card-title">Contact Us</h5>
+                <p class="card-text">Need support or have questions? Reach out and connect with the UniCare community.</p>
+                <a href="Contact_Us.html" class="btn btn-primary my-3">Reach out</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+        </div>
+
+       
+
+            <section class="about-section py-5">
+
+                <div class="container">
+
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-8 text-center">
+
+                            <h2 class="mb-4">
+                                About UniCare
+                            </h2>
+
+                            <p>
+                                UniCare was created to support students through the
+                                challenges of university life. From study guidance to
+                                mental wellness resources, our goal is to help students
+                                build healthier habits, reduce stress, and stay motivated
+                                throughout their academic journey.
+                            </p>
+
+                            <a href="About Us.html" class="btn btn-primary my-3">Learn More about UniCare</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class=" bg-light human-section py-5">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col text-center">
+
+                <h2 class="display-2 fw-bold">
+                    We're all human.
+                </h2>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        </section>
+
+        <footer class="bg-dark text-light py-5 footer-section mt-lg-0">
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">UniCare</h2>
+
+            <p class="footer-tagline">"Mind First"</p>
+
+        </div>
+
+        <!-- FOOTER CONTENT -->
+        <div class="row">
+
+            <!-- LEFT SIDE -->
+            <div class="col-lg-8">
+
+                <!-- MENU ROW -->
+                <div class="mb-4">
+
+                    <h5 class="fw-bold mb-3">Menu</h5>
+
+                    <div class="d-flex flex-wrap gap-4">
+
+                        <a href="index.html" class="footer-link">Home</a>
+
+                        <a href="study_tips.html" class="footer-link">Study Tips</a>
+
+                        <a href="mental_wellness.html" class="footer-link">Mental Wellness</a>
+
+                        <a href="about_us.html" class="footer-link">About Us</a>
+
+                        <a href="contact_us.html" class="footer-link">Contact Us</a>
+
+                    </div>
+
+                </div>
+
+                <!-- RESOURCE ROW -->
+                <div>
+
+                    <h5 class="fw-bold mb-3">More Resources</h5>
+
+                    <div class="d-flex flex-wrap gap-4">
+
+                        <a href="#" class="footer-link">Managing Stress</a>
+
+                        <a href="#" class="footer-link">Student Burnout</a>
+
+                        <a href="#" class="footer-link">Time Management</a>
+
+                        <a href="#" class="footer-link">Exam Preparation</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-4 text-lg-end mt-5 mt-lg-0">
+
+                <!-- EMAIL -->
+                <div class="mb-4">
+
+                    <h5 class="fw-bold">Contact</h5>
+
+                    <p class="mb-2">Unicare@Unicare.com</p>
+
+                    <p class="mb-1">+267 00000000</p>
+
+                    <p>+267 00000000</p>
+
+                </div>
+
+                <!-- ICONS -->
+                <h4 class="pt-3 fw-bold">
+                            Social Media Icons
+                        </h4>
+                        <div>
+                            <a href="https://www.instagram.com/" class="text-decoration-none text-light" ><i class="bi bi-instagram fs-2 me-3"></i></a>
+                            <a href="https://www.facebook.com/" class="text-decoration-none text-light" ><i class="bi bi-facebook fs-2 me-3"></i></a>
+                            <a href="https://www.pinterest.com/" class="text-decoration-none text-light" ><i class="bi bi-pinterest fs-2 me-3"></i></a>
+                            <a href="https://www.linkedin.com/" class="text-decoration-none text-light" ><i class="bi bi-linkedin fs-2"></i></a>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+        <!-- LINE -->
+        <hr class="border-light my-4">
+
+        <!-- BOTTOM -->
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+
+            <p class="mb-2 mb-lg-0">
+                <i class="bi bi-c-circle"></i>
+                Copyright UniCare. All rights reserved
+            </p>
+
+            <div>
+
+                <a href="#" class="footer-link me-4">Terms of Use</a>
+
+                <a href="#" class="footer-link">Privacy Policy</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </footer>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
 </html>
