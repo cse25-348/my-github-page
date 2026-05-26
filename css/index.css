@@ -41,7 +41,7 @@ h1{
     filter: brightness(45%);
 }
 
-
+/* center overlay content and animates upward into the middle */
 .hero-card .card-img-overlay {
     display: flex;
     flex-direction: column;
