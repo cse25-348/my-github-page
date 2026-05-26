@@ -29,7 +29,7 @@ h1{
 }
 
 .hero-card {
-    /* medium sized hero */
+    
     height: 60vh;
     position: relative;
 }
@@ -41,7 +41,7 @@ h1{
     filter: brightness(45%);
 }
 
-/* center overlay content and animate upward into the middle */
+
 .hero-card .card-img-overlay {
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ h1{
 }
 
 .card {
-    background-color: #f0f0f0; /* change this hex to whatever gray you want */
+    background-color: #f0f0f0; 
 }
 
 .card {
